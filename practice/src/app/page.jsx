@@ -6,13 +6,13 @@ const page = () => {
       <h1 className="text-[50px] mb-10">Welcome to Next Js Practice</h1>
       <Link
         href={"/membership"}
-        className="text-green-400 hover:text-green-600 p-4 border-2 border-black bg-cyan-200 mr-10"
+        className="text-white font-bold hover:bg-blue-800 p-4 border-2 border-black bg-blue-600 mr-10 rounded-lg"
       >
         Membership
       </Link>
       <Link
         href={"/products"}
-        className="text-green-400 hover:text-green-600 p-4 border-2 border-black bg-cyan-200"
+        className="text-white font-bold hover:bg-blue-800  p-4 border-2 border-black bg-blue-600 rounded-lg"
       >
         Products
       </Link>
