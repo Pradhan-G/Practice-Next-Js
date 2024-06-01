@@ -1,4 +1,6 @@
+import { Suspense } from "react";
 import "./globals.css";
+import Loading from "./loading";
 
 export const metadata = {
   title: "Practice JS",
@@ -8,7 +10,9 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html>
-      <body>{children}</body>
+      <body>
+        <Suspense fallback={<Loading />}>{children}</Suspense>
+      </body>
     </html>
   );
 };
