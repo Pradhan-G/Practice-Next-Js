@@ -16,6 +16,18 @@ const page = () => {
       >
         Products
       </Link>
+      <Link
+        href={"/server-data-fetch"}
+        className="text-white font-bold hover:bg-blue-800  p-4 border-2 border-black bg-blue-600 rounded-lg ml-10"
+      >
+        Server Data Fetching
+      </Link>
+      <Link
+        href={"/client-data-fetch"}
+        className="text-white font-bold hover:bg-blue-800  p-4 border-2 border-black bg-blue-600 rounded-lg ml-10"
+      >
+        Client Data Fetching
+      </Link>
     </div>
   );
 };
